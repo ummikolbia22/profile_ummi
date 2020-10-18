@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fotomi"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textmi"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100dp"
+        android:layout_marginTop="@dimen/_30dp"
+        android:fontFamily="@font/heart"
+        android:gravity="center"
+        android:text="@string/_name"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_35sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/tv_profilemi"
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_200dp"
+        android:layout_below="@id/textmi"
+        android:layout_marginStart="@dimen/_100dp"
+        android:layout_marginEnd="@dimen/_100dp"
+        android:src="@drawable/kuyy" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30dp"
+        android:layout_marginTop="@dimen/_340dp"
+        android:fontFamily="@font/hala_demo"
+        android:gravity="center"
+        android:text="@string/_textbaru"
+        android:id="@+id/textevery"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_30dp" />
+
+    <Button
+        android:layout_width="@dimen/_100dp"
+        android:layout_height="@dimen/_40dp"
+        android:layout_below="@id/textevery"
+        android:layout_marginTop="@dimen/_320dp"
+        android:background="#EDBEF1"
+        android:text="@string/let_s_go" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_10dp"
+        android:id="@+id/buton1"
+        android:background="#CEF1C5E9"/>
+
+
+
+</RelativeLayout>
